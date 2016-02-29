@@ -32,11 +32,29 @@
 			    border-radius: .5rem;
 			    text-decoration: none;
 			    text-align: center;    
-			}ß
+			}
+			#Container{
+				font-size: 2rem;
+				background: #666;
+				color: #fff;
+			}
+			#emContainer{
+				font-size: .5em;
+			}
+			#pxContainer{
+				font-size: 20px;
+			}
 		</style>
 	</head>
 	<body>
-		<a href="##" class="btn" role="button">确定</a>
+		<div>
+			<a href="##" class="btn" role="button">确定</a>
+		</div>
+		<div id="Container">
+			<span>我是rem</span>
+			<span id="emContainer">我是em</span>
+			<span id="pxContainer">我是px</span>
+		</div>
 	</body>
 	<script type="text/javascript">
 	(function(doc,win){
