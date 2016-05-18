@@ -38,3 +38,10 @@
   0 10px 10px green; /*底边阴影*/  
 }
 ```
+
+## 去掉ol左边距
+```html
+ol{
+  list-style: inside decimal;
+}
+```
