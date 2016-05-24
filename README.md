@@ -45,3 +45,12 @@ ol{
   list-style: inside decimal;
 }
 ```
+
+## direction
+```html
+p{
+  direction:rtl
+}
+
+p(dir="rtl")
+```
